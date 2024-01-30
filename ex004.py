@@ -1,0 +1,10 @@
+#Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitvo e todas as informações possíveis sobre ele.
+A = input('digite uma informação: ')
+print('o tipo primitivo de {} é'.format(A),type(A))
+print('{} é composto apenas de letras?'.format(A),A.isalpha())
+print('{} é composto apenas de números?'.format(A),A.isnumeric())
+print('{} possui letras ou números?'.format(A),A.isalnum())
+print('{} está em caixa alta?'.format(A), A.isupper())
+print('{} está em minúsculo?'.format(A), A.islower())
+print('{} é composto por caracteres?'.format(A), A.isascii())
+print('{} está capitalizada?'.format(A), A.istitle())
