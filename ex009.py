@@ -1,0 +1,12 @@
+#Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+T = int(input('Digite um número para ver sua tabuada: '))
+print('{} X {:2} = {}'.format(T, 1, T * 1))
+print('{} X {:2} = {}'.format(T, 2, T * 2))
+print('{} X {:2} = {}'.format(T, 3, T * 3))
+print('{} X {:2} = {}'.format(T, 4, T * 4))
+print('{} X {:2} = {}'.format(T, 5, T * 5))
+print('{} X {:2} = {}'.format(T, 6, T * 6))
+print('{} X {:2} = {}'.format(T, 7, T * 7))
+print('{} X {:2} = {}'.format(T, 8, T * 8))
+print('{} X {:2} = {}'.format(T, 9, T * 9))
+print('{} X {:2} = {}'.format(T, 10, T * 10))
